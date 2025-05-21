@@ -414,7 +414,7 @@ footer {
 .floating-cart {
     position: fixed;
     top: 0;
-    right: -1000px;
+    right: -1500px;
     width: 380px;
     height: 100vh;
     background-color: var(--white);
