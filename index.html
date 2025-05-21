@@ -459,51 +459,41 @@
             <button class="checkout-btn" id="checkout-btn">Passer la commande</button>
         </div>
     </div>
-    <!-- Modal de Commande Simplifié -->
-<div class="order-modal" id="order-modal">
-    <div class="modal-content">
-        <div class="modal-header">
-            <h3>Finaliser votre commande</h3>
-            <button class="close-modal">&times;</button>
+        <!-- Modal de Commande Simplifié -->
+    <div class="order-modal" id="order-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Finaliser votre commande</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            
+            <div class="order-summary">
+                <h4>Votre Commande :</h4>
+                <div id="order-items-list"></div>
+                <p class="order-total">Total: <span id="modal-total-price">0</span> FCFA</p>
+            </div>
+
+            
+                <div class="contact-options">
+            <div class="contact-method">
+                <a id="whatsapp-btn" class="whatsapp-link" target="_blank">Commander via WhatsApp</a>
+                <p>Nous recevrons votre commande instantanément</p>
+            </div>
+            <div class="contact-method">
+                <a id="sms-btn" class="sms-link">Commander par SMS</a>
+                <p>Votre message sera prérempli</p>
+            </div>
+            <div class="contact-method">
+                <a id="call-btn" class="call-link">Appeler pour commander</a>
+                <p>Appelez-nous pour confirmer rapidement</p>
+            </div>
         </div>
-        
-        <div class="order-summary">
-            <h4>Votre Commande :</h4>
-            <div id="order-items-list"></div>
-            <p class="order-total">Total: <span id="modal-total-price">0</span> FCFA</p>
+
+        <div>   
+            <p class="contact-note">Nous vous contacterons pour finaliser la commande après réception de votre message.</p>
         </div>
-
-        
-        <div class="contact-options">
-    <div class="contact-method">
-        <a id="whatsapp-btn" class="whatsapp-link" target="_blank">Commander via WhatsApp</a>
-        <p>Nous recevrons votre commande instantanément</p>
     </div>
-    <div class="contact-method">
-        <a id="sms-btn" class="sms-link">Commander par SMS</a>
-        <p>Votre message sera prérempli</p>
-    </div>
-    <div class="contact-method">
-        <a id="call-btn" class="call-link">Appeler pour commander</a>
-        <p>Appelez-nous pour confirmer rapidement</p>
-    </div>
-</div>
-
-
-<div class="order-summary">
-    <div id="order-items-list"></div>
-    <div class="order-total">
-        Total : <span id="modal-total-price">0</span> FCFA
-    </div>
-</div>
-
-
-
-        
-        <p class="contact-note">Nous vous contacterons pour finaliser la commande après réception de votre message.</p>
-    </div>
-</div>
-    <!-- Scripts -->
-    <script src="script.js"></script>
+        <!-- Scripts -->
+        <script src="script.js"></script>
 </body>
 </html>

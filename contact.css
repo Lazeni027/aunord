@@ -3,8 +3,19 @@
 /* coprs partie contact */
 /* CONTACT */
 
+ .coprs{
+    display: flex;
+    align-items: center; /* Centre verticalement */
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 10px; 
+
+} 
 .contact-page {
-    display: flexbox;
+     display: flex;
+     flex-wrap: wrap; 
+    align-items: center;
+   justify-content: center;
     justify-content: center;
     display: contents;
     gap: 20px;
@@ -21,7 +32,7 @@
     background-color: white;
 }
 .contact-whatsapp{
-  
+    text-align: center;
     width: 70%;
     padding: 10px;
     margin: 5px 10px;
