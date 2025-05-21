@@ -1,0 +1,65 @@
+
+
+/* coprs partie contact */
+/* CONTACT */
+
+.contact-page {
+    display: flexbox;
+    justify-content: center;
+    display: contents;
+    gap: 20px;
+    padding: 20px 20px;
+    margin:0 20px;
+    margin-top: 150px;
+    background-color: rgb(234, 234, 205);
+}
+
+.appel{
+    width: 50%;
+    margin: 5 100px;
+    padding: 10px ;
+    background-color: white;
+}
+.contact-whatsapp{
+  
+    width: 70%;
+    padding: 10px;
+    margin: 5px 10px;
+    background-color: #128C7E;
+    color: #FFFFFF;
+    
+}
+
+
+
+.contact-whatsapp a:hover {
+    background-color: #128C7E;
+    transition: background-color 0.3s ease;
+ }
+
+.contact-whatsapp a {
+    background-color: #128C7E; /* Vert foncé au survol */
+    transition: background-color 0.3s ease;
+    background-color: #25D366; 
+    color: #FFFFFF; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    text-decoration: none;
+}
+
+
+
+.rejoin-whatsapp a{
+    color: white
+}
+
+
+.propos{
+    margin: 0 50px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+
+
+

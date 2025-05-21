@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KORHOGO-SHOP | Produits Locaux de Qualité</title>
+    <meta name="description" content="Boutique en ligne de produits locaux de Korhogo. Découvrez nos articles agro-alimentaires, artisanaux et cosmétiques naturels.">
+    <meta name="keywords" content="Korhogo, produits locaux, Côte d'Ivoire, karité, artisanat, cosmétiques naturels">
+    <meta name="author" content="KORHOGO-SHOP">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="images/android-chrome-192x192.png">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#e67e22">
+    
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+    
+<body>
+    <!-- Navigation Principale -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">KORHOGO<span>-SHOP</span></a>
+            
+            <div class="nav-links">
+                <a href="#agro-alimentaire" class="nav-link">Agro-alimentaire</a>
+                <a href="#artisanat" class="nav-link">Artisanat</a>
+                <a href="#cosmetiques" class="nav-link">Cosmétiques</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            
+            <div class="nav-actions">
+                <div class="nav-actions">
+                    <div class="cart-icon" id="cart-icon" aria-label="Panier">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="cart-count">0</span>
+                    </div>
+                    <button class="menu-burger" id="menu-burger" aria-label="Menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+
+
+        </div>
+     </nav>
+
+    <!-- Bannière Promo -->
+    <div class="promo-banner">
+        <p>Livraison gratuite à partir de 1000 FCFA | <strong>10% de réduction</strong> sur votre première commande</p>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Découvrez l'Authenticité de Korhogo</h1>
+            <p>Produits 100% naturels et artisanaux directement des producteurs locaux</p>
+            <a href="#products" class="cta-button">Voir les produits</a>
+        </div>
+    </header>
+
+    <!-- Section Produits -->
+    <main class="main-content" id="products">
+
+        <!-- Agro-alimentaire -->
+        <section id="agro-alimentaire" class="product-section">
+            <h2 class="section-title">Produits Agro-alimentaires</h2>
+            <div class="products-grid">
+                <!-- Produit 1 -->
+                <div class="product-card">
+                    <div class="product-badge">TOP VENTE</div>
+                    <img src="images/beurreverre1k.png" alt="Beurre de Karité" class="product-image">
+                    <div class="product-details">
+                        <h3 class="product-title">Beurre de Karité Pur</h3> <span>Emballage en verre</span>
+                        <div class="product-price">6 500 FCFA <del>7 000 FCFA</del></div>
+                        <ul class="product-specs">
+                            <li>100% naturel et bio</li>
+                            <li>Production locale</li>
+                            <li>1Kg</li>
+                            <li>Certifié ECOCERT</li>
+                        </ul>
+                        <button class="add-to-cart" data-id="1" data-name="Beurre de Karité Pur" data-price="3500">
+                            <i class="fas fa-cart-plus"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Produit 2 -->
+                <div class="product-card">
+                    <div class="product-badge">TOP VENTE</div>
+                    <img src="images/beurrplastic1kg.png" alt="Beurre de Karité" class="product-image">
+                    <div class="product-details">
+                        <h3 class="product-title">Beurre de Karité Pur </h3><span>Emballage standare</span>
+                        <div class="product-price">4 500 FCFA <del>6 000 FCFA</del></div>
+                        <ul class="product-specs">
+                            <li>100% naturel et bio</li>
+                            <li>Production locale</li>
+                            <li>1kg</li>
+                            <li>Certifié ECOCERT</li>
+                        </ul>
+                        <button class="add-to-cart" data-id="2" data-name="Beurre de Karité Pur" data-price="3500">
+                            <i class="fas fa-cart-plus"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+
+                    <!-- Produit 3 -->
+                <div class="product-card">
+                    <div class="product-badge">TOP VENTE</div>
+                    <img src="images/beurrsachet.png" alt="Beurre de Karité" class="product-image">
+                    <div class="product-details">
+                        <h3 class="product-title">Beurre de Karité Pur </h3><span>Emballage sachet</span>
+                        <div class="product-price">4 000 FCFA <del>5 000 FCFA</del></div>
+                        <ul class="product-specs">
+                            <li>100% naturel et bio</li>
+                            <li>Production locale</li>
+                            <li>1kg</li>
+                            <li>Certifié ECOCERT</li>
+                        </ul>
+                        <button class="add-to-cart" data-id="3" data-name="Beurre de Karité Pur" data-price="3500">
+                            <i class="fas fa-cart-plus"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Produit 4 -->
+                <div class="product-card">
+                    <div class="product-badge">NOUVEAU</div>
+                    <img src="images/miel05.png" alt="Miel de Savane" class="product-image">
+                    <div class="product-details">
+                        <h3 class="product-title">Miel PUR de Savane</h3>
+                        <div class="product-price">2 200 FCFA <del>2 500 FCFA</del></div>
+                        <ul class="product-specs">
+                            <li>Miel 100% pur</li>
+                            <li>Non pasteurisé</li>
+                            <li>Pot de 0,5 L</li>
+                            <li>Riche en nutriments</li>
+                        </ul>
+                        <button class="add-to-cart" data-id="4" data-name="Miel de Savane" data-price="5000">
+                            <i class="fas fa-cart-plus"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+                <!-- Produit 5 -->
+                <div class="product-card">
+                    <div class="product-badge">NOUVEAU</div>
+                    <img src="images/miel1l.png" alt="Miel de Savane" class="product-image">
+                    <div class="product-details">
+                        <h3 class="product-title">Miel PUR de Savane</h3>
+                        <div class="product-price">4 000 FCFA <del>5 000 FCFA</del></div>
+                        <ul class="product-specs">
+                            <li>Miel 100% pur</li>
+                            <li>Non pasteurisé</li>
+                            <li>Pot de 1 L</li>
+                            <li>Riche en nutriments</li>
+                        </ul>
+                        <button class="add-to-cart" data-id="5" data-name="Miel de Savane" data-price="5000">
+                            <i class="fas fa-cart-plus"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Produit 6 -->
+                <div class="product-card">
+                    <div class="product-badge">NOUVEAU</div>
+                    <img src="images/" alt="Miel de Savane" class="product-image">
+                    <div class="product-details">
+                        <h3 class="product-title">Miel de Savane</h3>
+                        <div class="product-price">25 000 FCFA <del>30 500 FCFA</del></div>
+                        <ul class="product-specs">
+                            <li>Miel 100% pur</li>
+                            <li>Non pasteurisé</li>
+                            <li>Bidon de 25 L</li>
+                            <li>Riche en nutriments</li>
+                        </ul>
+                        <button class="add-to-cart" data-id="6" data-name="Miel de Savane" data-price="5000">
+                            <i class="fas fa-cart-plus"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Produit 7 -->
+                <div class="product-card">
+                    <img src="images/a3.jpg" alt="Noix de Cajou" class="product-image">
+                    <div class="product-details">
+                        <h3 class="product-title">Noix de Cajou Grillées</h3>
+                        <div class="product-price">2 000 FCFA <del>3 000 FCFA</del></div>
+                        <ul class="product-specs">
+                            <li>Sans sel ajouté</li>
+                            <li>Sacs 1kg</li>
+                            <li>Riche en protéines</li>
+                            <li>Produit local</li>
+                        </ul>
+                        <button class="add-to-cart" data-id="3" data-name="Noix de Cajou Grillées" data-price="2500">
+                            <i class="fas fa-cart-plus"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Artisanat -->
+        <section id="artisanat" class="product-section">
+            <h2 class="section-title">Artisanat Local</h2>
+            <div class="products-grid">
+                <!-- Produit 8 -->
+                <div class="product-card">
+                    <div class="product-badge">EXCLUSIVITÉ</div>
+                    <img src="images/b7.jpg" alt="Pagne Traditionnel" class="product-image">
+                    <div class="product-details">
+                        <h3 class="product-title">Pagne Traditionnel Sénoufo</h3>
+                        <div class="product-price">8 000 FCFA <del>9 500 FCFA</del></div>
+                        <ul class="product-specs">
+                            <li>Tissu 100% coton</li>
+                            <li>Motifs traditionnels</li>
+                            <li>6 yards</li>
+                            <li>Teinture naturelle</li>
+                        </ul>
+                        <button class="add-to-cart" data-id="8" data-name="Pagne Traditionnel Sénoufo" data-price="8000">
+                            <i class="fas fa-cart-plus"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+                     <!-- Produit 9 -->
+                <div class="product-card">
+                    <div class="product-badge">EXCLUSIVITÉ</div>
+                    <img src="images/b4.jpg" alt="Pagne Traditionnel" class="product-image">
+                    <div class="product-details">
+                        <h3 class="product-title">Pagne Traditionnel Sénoufo</h3>
+                        <div class="product-price">8 000 FCFA <del>9 500 FCFA</del></div>
+                        <ul class="product-specs">
+                            <li>Tissu 100% coton</li>
+                            <li>Motifs traditionnels</li>
+                            <li>6 yards</li>
+                            <li>Teinture naturelle</li>
+                        </ul>
+                        <button class="add-to-cart" data-id="9" data-name="Pagne Traditionnel Sénoufo" data-price="8000">
+                            <i class="fas fa-cart-plus"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+                     <!-- Produit 10 -->
+                <div class="product-card">
+                    <div class="product-badge">EXCLUSIVITÉ</div>
+                    <img src="images/b2.jpg" alt="Pagne Traditionnel" class="product-image">
+                    <div class="product-details">
+                        <h3 class="product-title">Pagne Traditionnel Sénoufo</h3>
+                        <div class="product-price">8 000 FCFA <del>9 500 FCFA</del></div>
+                        <ul class="product-specs">
+                            <li>Tissu 100% coton</li>
+                            <li>Motifs traditionnels</li>
+                            <li>6 yards</li>
+                            <li>Teinture naturelle</li>
+                        </ul>
+                        <button class="add-to-cart" data-id="10" data-name="Pagne Traditionnel Sénoufo" data-price="8000">
+                            <i class="fas fa-cart-plus"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+                     <!-- Produit 11 -->
+                <div class="product-card">
+                    <div class="product-badge">EXCLUSIVITÉ</div>
+                    <img src="images/b9.jpg" alt="Pagne Traditionnel" class="product-image">
+                    <div class="product-details">
+                        <h3 class="product-title">Pagne Traditionnel Sénoufo</h3>
+                        <div class="product-price">8 000 FCFA <del>9 500 FCFA</del></div>
+                        <ul class="product-specs">
+                            <li>Tissu 100% coton</li>
+                            <li>Motifs traditionnels</li>
+                            <li>6 yards</li>
+                            <li>Teinture naturelle</li>
+                        </ul>
+                        <button class="add-to-cart" data-id="11" data-name="Pagne Traditionnel Sénoufo" data-price="8000">
+                            <i class="fas fa-cart-plus"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Produit 13 -->
+                <div class="product-card">
+                    <img src="images/statue.png" alt="Statue en Bois" class="product-image">
+                    <div class="product-details">
+                        <h3 class="product-title">Statue Sénoufo en Bois</h3>
+                        <div class="product-price">9 000 FCFA</div>
+                        <ul class="product-specs">
+                            <li>Sculpture artisanale</li>
+                            <li>Bois d'ébène</li>
+                            <li>Hauteur 35cm</li>
+                            <li>Pièce unique</li>
+                        </ul>
+                        <button class="add-to-cart" data-id="13" data-name="Statue Sénoufo en Bois" data-price="12000">
+                            <i class="fas fa-cart-plus"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Produit 14 -->
+                <div class="product-card">
+                    <div class="product-badge">LIMITÉ</div>
+                    <img src="images/OIP.jpeg" alt="Vannerie" class="product-image">
+                    <div class="product-details">
+                        <h3 class="product-title">Panier en Vannerie</h3>
+                        <div class="product-price">4 500 FCFA</div>
+                        <ul class="product-specs">
+                            <li>Fait main</li>
+                            <li>Matériaux naturels</li>
+                            <li>Diamètre 40cm</li>
+                            <li>Résistant</li>
+                        </ul>
+                        <button class="add-to-cart" data-id="14" data-name="Panier en Vannerie" data-price="4500">
+                            <i class="fas fa-cart-plus"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cosmétiques -->
+        <section id="cosmetiques" class="product-section">
+            <h2 class="section-title">Cosmétiques Naturels</h2>
+            <div class="products-grid">
+                <!-- Produit 7 -->
+                <div class="product-card">
+                    <div class="product-badge">BEST-SELLER</div>
+                    <img src="images/savon.png" alt="Savon au Karité" class="product-image">
+                    <div class="product-details">
+                        <h3 class="product-title">Savon au Karité</h3>
+                        <div class="product-price">1 500 FCFA <del>2 000 FCFA</del></div>
+                        <ul class="product-specs">
+                            <li>100% naturel</li>
+                            <li>Pour tous types de peau</li>
+                            <li>Lot de 3 savons</li>
+                            <li>Hydratant intense</li>
+                        </ul>
+                        <button class="add-to-cart" data-id="7" data-name="Savon au Karité" data-price="1500">
+                            <i class="fas fa-cart-plus"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Produit 8 -->
+                <div class="product-card">
+                    <img src="images/c2.jpg" alt="Huile de Baobab" class="product-image">
+                    <div class="product-details">
+                        <h3 class="product-title">Huile de Baobab</h3>
+                        <div class="product-price">3 800 FCFA</div>
+                        <ul class="product-specs">
+                            <li>100% pure</li>
+                            <li>Anti-âge naturel</li>
+                            <li>Flacon 100ml</li>
+                            <li>Riche en vitamines</li>
+                        </ul>
+                        <button class="add-to-cart" data-id="8" data-name="Huile de Baobab" data-price="3800">
+                            <i class="fas fa-cart-plus"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Produit 9 -->
+                <div class="product-card">
+                    <div class="product-badge">PACK</div>
+                    <img src="images/c3.jpg" alt="Pack Beauté" class="product-image">
+                    <div class="product-details">
+                        <h3 class="product-title">Pack Beauté Naturelle</h3>
+                        <div class="product-price">12 000 FCFA <del>15 000 FCFA</del></div>
+                        <ul class="product-specs">
+                            <li>Savon Karité x2</li>
+                            <li>Huile Baobab 100ml</li>
+                            <li>Beurre Karité 150g</li>
+                            <li>Éponge Loofah</li>
+                        </ul>
+                        <button class="add-to-cart" data-id="9" data-name="Pack Beauté Naturelle" data-price="12000">
+                            <i class="fas fa-cart-plus"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Section À Propos -->
+    <section class="about-section">
+        <div class="about-content">
+            <h2>À Propos de KORHOGO-SHOP</h2>
+            <p>KORHOGO-SHOP est une plateforme dédiée à la promotion des produits locaux de la région de Korhogo. Nous travaillons directement avec les artisans et producteurs locaux pour vous offrir des produits authentiques et de qualité.</p>
+            <div class="about-features">
+                <div class="feature">
+                    <i class="fas fa-leaf"></i>
+                    <h3>100% Naturel</h3>
+                    <p>Produits sans produits chimiques</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-hands-helping"></i>
+                    <h3>Commerce Équitable</h3>
+                    <p>Rémunération juste des producteurs</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-truck"></i>
+                    <h3>Livraison Rapide</h3>
+                    <p>Partout en Côte d'Ivoire</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>KORHOGO-SHOP</h3>
+                <p>Votre marketplace de produits locaux de qualité en Côte d'Ivoire.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Liens Utiles</h3>
+                <ul>
+                    <li><a href="#agro-alimentaire">Agro-alimentaire</a></li>
+                    <li><a href="#artisanat">Artisanat</a></li>
+                    <li><a href="#cosmetiques">Cosmétiques</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Korhogo, Côte d'Ivoire</p>
+                <p><i class="fas fa-phone"></i> +225 07 00 00 00</p>
+                <p><i class="fas fa-envelope"></i> contact@korhogoshop.ci</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2023 KORHOGO-SHOP. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Panier Flottant -->
+    <div class="floating-cart" id="floating-cart">
+        <div class="cart-header">
+            <h3>Votre Panier</h3>
+            <button class="close-cart" id="close-cart">&times;</button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Les articles du panier seront ajoutés ici dynamiquement -->
+        </div>
+        <div class="cart-total">
+            <p>Total: <span id="cart-total-price">0</span> FCFA</p>
+            <button class="checkout-btn" id="checkout-btn">Passer la commande</button>
+        </div>
+    </div>
+    <!-- Modal de Commande Simplifié -->
+<div class="order-modal" id="order-modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3>Finaliser votre commande</h3>
+            <button class="close-modal">&times;</button>
+        </div>
+        
+        <div class="order-summary">
+            <h4>Votre Commande :</h4>
+            <div id="order-items-list"></div>
+            <p class="order-total">Total: <span id="modal-total-price">0</span> FCFA</p>
+        </div>
+
+        
+        <div class="contact-options">
+    <div class="contact-method">
+        <a id="whatsapp-btn" class="whatsapp-link" target="_blank">Commander via WhatsApp</a>
+        <p>Nous recevrons votre commande instantanément</p>
+    </div>
+    <div class="contact-method">
+        <a id="sms-btn" class="sms-link">Commander par SMS</a>
+        <p>Votre message sera prérempli</p>
+    </div>
+    <div class="contact-method">
+        <a id="call-btn" class="call-link">Appeler pour commander</a>
+        <p>Appelez-nous pour confirmer rapidement</p>
+    </div>
+</div>
+
+
+<div class="order-summary">
+    <div id="order-items-list"></div>
+    <div class="order-total">
+        Total : <span id="modal-total-price">0</span> FCFA
+    </div>
+</div>
+
+
+
+        
+        <p class="contact-note">Nous vous contacterons pour finaliser la commande après réception de votre message.</p>
+    </div>
+</div>
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
